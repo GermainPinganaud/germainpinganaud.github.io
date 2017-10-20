@@ -8,14 +8,8 @@ body {
 }
 header {
   background-color: black;
-  background-image: url(../graphic/band-img2.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  min-height: 150px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   margin-bottom: 10vh;
+  justify-content: flex-end;
 }
 header li {
   font-size: 30px;
@@ -34,6 +28,7 @@ i {
   margin-right: 30px;
 }
 h1 {
+  margin-right: 20%;
   text-align: right;
   text-shadow: 2px 2px 4px #1F2629;
 }
@@ -92,14 +87,25 @@ small {
 .half-size {
   width: 50%;
 }
-.logo-size {
+.logo-50 {
+  width: 50px;
+}
+.logo-100 {
   width: 100px;
+}
+.logo-150 {
+  width: 150px;
+}
+.logo-lang {
+  width: 100px;
+  border-radius: 25%;
+  box-shadow: 1px 1px 4px white;
 }
 .white-bg {
   background-color: white;
 }
-.padding-sm {
-  height: 25vh;
+.align-items {
+  align-items: center;
 }
 .black-font {
   color: black;
@@ -107,13 +113,20 @@ small {
 .min-size-s {
   min-width: 300px;
 }
-.min-size-m {
-  min-width: 300px;
-}
-.min-size-l {
-  min-width: 300px;
+.half-height {
+  height: 50%;
 }
 @media screen and (max-width: 800px) {
+  header {
+    background-image: url(../graphic/band-img2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 150px;
+    display: flex;
+  }
+  .big-section {
+    height: 80vh;
+  }
   .flex-container {
     margin-top: 1%;
   }
