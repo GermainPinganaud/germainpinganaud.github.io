@@ -38,7 +38,7 @@ h1 {
   text-shadow: 2px 2px 4px #1F2629;
 }
 section {
-  height: 60vh;
+  height: 50vh;
 }
 footer {
   color: white;
@@ -99,7 +99,7 @@ small {
   background-color: white;
 }
 .padding-sm {
-  height: 50vh;
+  height: 25vh;
 }
 .black-font {
   color: black;
