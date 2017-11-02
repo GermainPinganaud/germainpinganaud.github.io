@@ -2,14 +2,16 @@ html {
   font-family: 'Rajdhani', sans-serif;
   color: white;
   background-image: url("../graphic/dark_wall.png");
+  font-size: 18px;
 }
 body {
   margin: 0 auto;
 }
 header {
+  display: flex;
+  justify-content: space-around;
   background-color: black;
   margin-bottom: 10vh;
-  justify-content: flex-end;
 }
 header li {
   font-size: 30px;
@@ -17,12 +19,12 @@ header li {
   text-transform: uppercase;
 }
 a {
-  color: #E1F7FF;
-  text-shadow: 4px 4px 16px #1F2629;
+  color: white;
+  text-decoration: none;
 }
 a:hover {
-  color: #E1F7FF;
-  text-shadow: -4px -4px 16px #72D5FF;
+  color: white;
+  text-shadow: 1px 1px 1px white;
 }
 i {
   margin-right: 30px;
@@ -32,8 +34,14 @@ h1 {
   text-align: right;
   text-shadow: 2px 2px 4px #1F2629;
 }
+.quizz_japon {
+  font-family: 'Sigmar One', cursive;
+}
+.red_o {
+  color: #B92124;
+}
 section {
-  height: 50vh;
+  height: 100vh;
 }
 footer {
   color: white;
@@ -64,8 +72,8 @@ small {
   font-weight: bold;
 }
 .container-margin {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .flex-container {
   display: flex;
@@ -125,7 +133,7 @@ small {
     display: flex;
   }
   .big-section {
-    height: 80vh;
+    height: 150vh;
   }
   .flex-container {
     margin-top: 1%;
