@@ -1,4 +1,6 @@
-html {
+/*---------------------------------------------
+                    GENERAL
+---------------------------------------------*/html {
   font-family: 'Open sans', sans-serif;
   color: white;
   background-image: url("../graphic/tweed.png");
@@ -21,26 +23,60 @@ a {
   text-decoration: none;
 }
 a:hover {
+  height: 200%;
+  width: 200%;
   color: white;
   text-shadow: 1px 1px 1px white;
 }
 i {
   margin-right: 30px;
 }
-h1, h2, h3 {
+/*---------------------------------------------
+                    TITRES
+---------------------------------------------*/
+h1, h2, h3, h4, h5 {
   font-family: 'Special Elite', cursive;
-  margin-right: 20%;
-  text-align: right;
   text-shadow: 2px 2px 4px #1F2629;
 }
+h1 {
+  text-align: right;
+  font-size: 60px;
+}
+h2 {
+  font-size: 40px;
+}
+/*---------------------------------------------
+                    BOUTONS
+---------------------------------------------*/
 li {
   list-style: none;
+}
+.iconCustom {
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url("../graphic/tweed.png");
+  font-family: 'Special Elite';
+  font-size: 35px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px black;
+  box-shadow: 2px 2px 4px black;
+}
+.logo-lang {
+    width: 30px;
+    border-radius: 25%;
+    box-shadow: 1px 1px 2px white;
+  }
 }
 small {
   display: flex;
   justify-content: center;
 }
 section {
+  padding-top: 20vh;
   height: 100vh;
 }
 .header-img {
@@ -89,11 +125,6 @@ section {
 .logo-150 {
   width: 150px;
 }
-.logo-lang {
-  width: 30px;
-  border-radius: 25%;
-  box-shadow: 1px 1px 2px white;
-}
 .white-bg {
   background-image: url("../graphic/tweed.png");
 }
@@ -109,21 +140,20 @@ section {
 .half-height {
   height: 50%;
 }
-@media screen and (max-width: 800px) {
-  header {
-    background-image: url(../graphic/band-img2.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    min-height: 150px;
-    display: flex;
+@media screen and (max-width: 1100px) {
+  h1 {
+    font-size: 30px;
   }
+  h2 {
+    font-size: 20px;
+  }
+
   .big-section {
     height: 150vh;
   }
-  .flex-container {
-    margin-top: 1%;
-  }
+
   .half-size {
+    margin-top: 20vh;
     width: 100%;
   }
 }
