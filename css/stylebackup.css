@@ -1,19 +1,19 @@
 html {
-  font-family: 'Open sans', sans-serif;
+  font-family: 'Alegreya', serif;
   color: white;
-  background-image: url("../graphic/tweed.png");
+  background-image: url("../graphic/dark_wall.png");
   font-size: 18px;
 }
 body {
-  margin: inherit;
+  margin: 0 auto;
 }
 header {
   width: 100%;
   position: fixed;
-  background-image: url("../graphic/dark_wall.png");
+  background-image: url("../graphic/tweed.png");
   margin-bottom: 10vh;
 }
-label {
+header label {
   margin-left: 10px;
 }
 a {
@@ -27,11 +27,21 @@ a:hover {
 i {
   margin-right: 30px;
 }
-h1, h2, h3 {
+h1 {
   font-family: 'Special Elite', cursive;
   margin-right: 20%;
   text-align: right;
   text-shadow: 2px 2px 4px #1F2629;
+}
+.red_o {
+  color: #B92124;
+}
+footer {
+  color: white;
+  background-color: #111F25;
+}
+ul {
+  margin: 0 auto;
 }
 li {
   list-style: none;
@@ -40,9 +50,7 @@ small {
   display: flex;
   justify-content: center;
 }
-section {
-  height: 100vh;
-}
+
 .header-img {
   display: flex;
   align-items: center;
@@ -95,7 +103,7 @@ section {
   box-shadow: 1px 1px 2px white;
 }
 .white-bg {
-  background-image: url("../graphic/tweed.png");
+  background-color: white;
 }
 .align-items {
   align-items: center;
