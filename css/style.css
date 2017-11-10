@@ -22,12 +22,6 @@ a {
   color: white;
   text-decoration: none;
 }
-a:hover {
-  height: 200%;
-  width: 200%;
-  color: white;
-  text-shadow: 1px 1px 1px white;
-}
 i {
   margin-right: 30px;
 }
@@ -46,8 +40,11 @@ h2 {
   font-size: 40px;
 }
 /*---------------------------------------------
-                    BOUTONS
+                    MENUS
 ---------------------------------------------*/
+.hden{
+  display: none;
+}
 li {
   list-style: none;
 }
@@ -65,8 +62,13 @@ li {
   text-shadow: 2px 2px 4px black;
   box-shadow: 2px 2px 4px black;
 }
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 .logo-lang {
-    width: 30px;
+    width: 50px;
     border-radius: 25%;
     box-shadow: 1px 1px 2px white;
   }
@@ -87,10 +89,6 @@ section {
 .list-no-style {
   padding-left: 0;
   list-style: none;
-}
-.list-no-style li a {
-  text-decoration: none;
-  font-weight: bold;
 }
 .container-margin {
   padding-left: 5%;
