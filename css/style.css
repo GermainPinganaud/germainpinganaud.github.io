@@ -9,11 +9,11 @@
 body {
   margin: inherit;
 }
-header {
+.menu {
   width: 100%;
   position: fixed;
   background-image: url("../graphic/dark_wall.png");
-  margin-bottom: 10vh;
+  margin-bottom: 100px;
 }
 label {
   margin-left: 10px;
@@ -33,20 +33,28 @@ h1, h2, h3, h4, h5 {
   text-shadow: 2px 2px 4px #1F2629;
 }
 h1 {
-  text-align: right;
-  font-size: 60px;
+  text-align: left;
+  font-size: 50px;
 }
 h2 {
-  font-size: 40px;
+  font-size: 30px;
 }
 /*---------------------------------------------
                     MENUS
 ---------------------------------------------*/
-.hden{
+.hidden{
   display: none;
 }
 li {
   list-style: none;
+}
+.menu-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  justify-content: flex-end;
+  background-image: url("../graphic/tweed.png");
+  box-shadow: 2px 2px 4px black;
 }
 .iconCustom {
   width: 50px;
@@ -78,8 +86,8 @@ small {
   justify-content: center;
 }
 section {
-  padding-top: 20vh;
-  height: 100vh;
+  padding-top: 200px;
+  height: 600px;
 }
 .header-img {
   display: flex;
@@ -147,11 +155,10 @@ section {
   }
 
   .big-section {
-    height: 150vh;
+    height: 150;
   }
 
   .half-size {
-    margin-top: 20vh;
     width: 100%;
   }
 }
